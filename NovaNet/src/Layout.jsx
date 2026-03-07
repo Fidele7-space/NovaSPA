@@ -138,17 +138,17 @@ export default function Layout({ children, currentPageName }) {
                 display: grid;
              }`}
   </style>
-      <div className="min-h-screen bg-slate-50">
+      <div className=" flex flex-col min-h-screen text-decoration-none mt-auto bg-white">
         <NavBar />
-        <div className="pt-20">
+        <div className="pt-0">
           <PageTransition currentPageName={currentPageName}>
             {children}
           </PageTransition>
         </div>
 
         {/* Footer */}
-        <footer className="border-t border-slate-200 px-6 py-10 mt-auto text-center">
-          <div className="flex items-center justify-center gap-2 mb-3">
+        <footer className="border-t border-slate-200 mt-auto px-6 py-6 h-[100px] w-full text-center">
+          <div className="flex items-center justify-center gap-2">
             <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-violet-600 to-fuchsia-600 flex items-center justify-center">
               <Zap className="w-3.5 h-3.5 text-black" />
             </div>
