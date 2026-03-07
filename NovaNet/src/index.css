@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222 47% 11%;
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+  --border: 214 32% 91%;
+  --input: 214 32% 91%;
+  --primary: 262 83% 58%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 210 40% 96%;
+  --secondary-foreground: 222 47% 11%;
+  --muted: 210 40% 96%;
+  --muted-foreground: 215 16% 47%;
+  --radius: 0.75rem;
+}
+#root{
+  background: transparent;
+}
+
+body {
+  margin: 0;
+  padding: 30px;
+  background: radial-gradient(circle at 20% 30%, #2a1240 0%, #0b0f1a 40%, #05070d 100%);
+  font-family: system-ui, sans-serif;
+}
