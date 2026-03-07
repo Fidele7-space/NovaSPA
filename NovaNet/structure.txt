@@ -1,3 +1,4 @@
+
 /workspaces/NovaSPA/NovaNet
 ├── README.md
 ├── eslint.config.js
@@ -11,3 +12,9 @@
 ├── structure.txt
 ├── tailwind.config.js
 └── vite.config.js
+
+directory: 3 file: 9
+
+
+
+[2K[1G
